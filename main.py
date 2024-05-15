@@ -29,7 +29,7 @@ while True:
     if CHOICE =='1':
         os.system('python gf.py')
     elif CHOICE=='2':
-        os.system('gf_fiender.py')
+        os.system('python gf_fiender.py')
     else:
         for i in range(10,0,-1):
             sleep(0.5)
