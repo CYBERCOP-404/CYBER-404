@@ -15,6 +15,7 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |
 # import section start 
 from random2 import choice
 import os
+from time import sleep
 # import section end
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear') 
