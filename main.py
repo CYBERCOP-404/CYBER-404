@@ -1,6 +1,38 @@
-#ENCODED BY : CYBER-COP-BANGLADESH
-#ENCRYPTION : Py3 MARSHAL+BASE64
-#GITHUB : https://github.com/CYBERCOP-404
-#----------------------------------------------
-import marshal, base64
-exec(marshal.loads(base64.b64decode(b'4wAAAAAAAAAAAAAAAAYAAAAAAAAA81oBAACXAGQAZAFsAFoAZABkAmwBbQJaAgEAZAOEAFoDZARaBGQFWgVkBloGCQACAGUDpgAAAKsAAAAAAAAAAAABAAIAZQdlBKYBAACrAQAAAAAAAAAAAQACAGUHZQWmAQAAqwEAAAAAAAAAAAEAAgBlCGQIpgEAAKsBAAAAAAAAAABaCWUJZAlrAgAAAAByEQIAZQBqCgAAAAAAAAAAZAqmAQAAqwEAAAAAAAAAAAEAblUCAGULZAtkAGQMpgMAAKsDAAAAAAAAAABEAF1HWgwCAGUCZA2mAQAAqwEAAAAAAAAAAAEAAgBlA6YAAACrAAAAAAAAAAAAAQACAGUHZQSmAQAAqwEAAAAAAAAAAAEAAgBlB2UGpgEAAKsBAAAAAAAAAAABAAIAZQdkDmUMmwBkD50DpgEAAKsBAAAAAAAAAAABAAIAZQJkDaYBAACrAQAAAAAAAAAAAQCMSIyYKRDpAAAAAE4pAdoFc2xlZXBjAAAAAAAAAAAAAAAABAAAAAMAAADzUgAAAJcAdAEAAAAAAAAAAAAAagEAAAAAAAAAAHQAAAAAAAAAAAAAAGoCAAAAAAAAAABkAWsCAAAAAHICZAJuAWQDpgEAAKsBAAAAAAAAAAABAGQAUwApBE7aAm502gNjbHPaBWNsZWFyKQPaAm9z2gZzeXN0ZW3aBG5hbWWpAPMAAAAA+hJfX19JTk5PQ0VOVC1CT1lfX1/aDGNsZWFyX3NjcmVlbnIOAAAABQAAAHMmAAAAgADdBAaESZVylHegJJJ/kH+IZYhlqEfRBDTUBDTQBDTQBDTQBDRyDAAAAGHnAgAAG1sxOzMybQogIC8kJCQkJCQgIC8kJCAgICAgLyQkIC8kJCQkJCQkICAvJCQkJCQkJCQgLyQkJCQkJCQgICAgICAgICAgIC8kJCQkJCQgICAvJCQkJCQkICAvJCQkJCQkJCAKIC8kJF9fICAkJHwgICQkICAgLyQkL3wgJCRfXyAgJCR8ICQkX19fX18vfCAkJF9fICAkJCAgICAgICAgIC8kJF9fICAkJCAvJCRfXyAgJCR8ICQkX18gICQkCnwgJCQgIFxfXy8gXCAgJCQgLyQkLyB8ICQkICBcICQkfCAkJCAgICAgIHwgJCQgIFwgJCQgICAgICAgIHwgJCQgIFxfXy98ICQkICBcICQkfCAkJCAgXCAkJAp8ICQkICAgICAgICBcICAkJCQkLyAgfCAkJCQkJCQkIHwgJCQkJCQgICB8ICQkJCQkJCQvIC8kJCQkJCR8ICQkICAgICAgfCAkJCAgfCAkJHwgJCQkJCQkJC8KfCAkJCAgICAgICAgIFwgICQkLyAgIHwgJCRfXyAgJCR8ICQkX18vICAgfCAkJF9fICAkJHxfX19fX18vfCAkJCAgICAgIHwgJCQgIHwgJCR8ICQkX19fXy8gCnwgJCQgICAgJCQgICAgfCAkJCAgICB8ICQkICBcICQkfCAkJCAgICAgIHwgJCQgIFwgJCQgICAgICAgIHwgJCQgICAgJCR8ICQkICB8ICQkfCAkJCAgICAgIAp8ICAkJCQkJCQvICAgIHwgJCQgICAgfCAkJCQkJCQkL3wgJCQkJCQkJCR8ICQkICB8ICQkICAgICAgICB8ICAkJCQkJCQvfCAgJCQkJCQkL3wgJCQgICAgICAKIFxfX19fX18vICAgICB8X18vICAgIHxfX19fX19fLyB8X19fX19fX18vfF9fLyAgfF9fLyAgICAgICAgIFxfX19fX18vICBcX19fX19fLyB8X18vICAgVmVyc29uLTIuMQp6HwpbMV0gVVNFIFRISVMgR0YgRklOREVSIFRPT0wgIAp6GRtbMDszMW0KTE9HSU4gRVJST1IgLi4uLgpUehsbWzE7MzRtRU5URVIgWU9VUiBDSE9JQ0UgOiDaATF6DHB5dGhvbiBnZi5weekKAAAA6f////9nAAAAAAAA4D96ClRSWSBBRlRFUiB6ByBTRUNPTkQpDXIIAAAA2gR0aW1lcgMAAAByDgAAANoGQkFOTkVS2gxjb21tYW5kX2xpc3TaBGNvbW3aBXByaW502gVpbnB1dNoGQ0hPSUNFcgkAAADaBXJhbmdl2gFpcgsAAAByDAAAAHINAAAA+gg8bW9kdWxlPnIbAAAAAQAAAHMcAQAA8AMBAQHgAAmACYAJgAnYABbQABbQABbQABbQABbQABbwBAEBNfAAAQE18AABATXwBAkIBIAG8BQCDgSADPAGAgcEgATwBg4BF9gEEIBMgU6EToBO2AQJgEWIJoFNhE2ATdgECYBFiCzRBBfUBBfQBBfYDRKIVdATM9ENNNQNNIBG2AcNkAOCfIB82AgRiAKMCZAu0Qgh1Agh0Agh0Agh4BEWkBWQcpghmEKRHpQe8AAGCRfwAAYJF4hB2AwRiEWQI4lKjEqIStgMGIhMiU6MTohO2AwRiEWQJolNjE2ITdgMEYhFkCSJS4xLiEvYDBGIRdASKZhx0BIp0BIp0BIp0Qwq1Awq0Awq2AwRiEWQI4lKjEqISohK8B0OARdyDAAAAA==')))
+# import section Start
+import os 
+from time import sleep
+# import section end
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
+BANNER='''\033[1;32m
+  /$$$$$$  /$$     /$$ /$$$$$$$  /$$$$$$$$ /$$$$$$$           /$$$$$$   /$$$$$$  /$$$$$$$ 
+ /$$__  $$|  $$   /$$/| $$__  $$| $$_____/| $$__  $$         /$$__  $$ /$$__  $$| $$__  $$
+| $$  \__/ \  $$ /$$/ | $$  \ $$| $$      | $$  \ $$        | $$  \__/| $$  \ $$| $$  \ $$
+| $$        \  $$$$/  | $$$$$$$ | $$$$$   | $$$$$$$/ /$$$$$$| $$      | $$  | $$| $$$$$$$/
+| $$         \  $$/   | $$__  $$| $$__/   | $$__  $$|______/| $$      | $$  | $$| $$____/ 
+| $$    $$    | $$    | $$  \ $$| $$      | $$  \ $$        | $$    $$| $$  | $$| $$      
+|  $$$$$$/    | $$    | $$$$$$$/| $$$$$$$$| $$  | $$        |  $$$$$$/|  $$$$$$/| $$      
+ \______/     |__/    |_______/ |________/|__/  |__/         \______/  \______/ |__/   Verson-2.1
+'''
+command_list='''
+[1] USE THIS GF FINDER TOOL  
+'''
+comm ='''\033[0;31m
+LOGIN ERROR ....
+'''
+while True:
+    clear_screen()
+    print(BANNER)
+    print(command_list)
+    CHOICE = input('\033[1;34mENTER YOUR CHOICE : ')
+    if CHOICE =='1':
+        os.system('python gf.py')
+    else:
+        for i in range(10,0,-1):
+            sleep(0.5)
+            clear_screen()
+            print(BANNER)
+            print(comm)
+            print(f'TRY AFTER {i} SECOND')
+            sleep(0.5)
+# Developed by CYBER-COP-BANGLADESH
