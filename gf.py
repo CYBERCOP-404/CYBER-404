@@ -17,7 +17,10 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |        $$ |  $$\ $$ |  $$ |$
 from random2 import choice
 from time import sleep
 import webbrowser as auto
-# import section end 
+import os
+# import section end
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear') 
 # girl section start 
 sonia   = 'https://www.facebook.com/profile.php?id=61555730134982'
 sadia   = 'https://www.facebook.com/profile.php?id=61550780090307'
@@ -32,6 +35,7 @@ israt   = 'https://www.facebook.com/profile.php?id=61554654218911'
 # girl section end 
 girl_list =[sonia,sadia,nusrat,rani,maisa,nusu,mahiya,sanjida,raisa,israt]
 while True:
+    clear_screen()
     print(BANNERR)
     user_input = int(input('WHAT IS YOUR CHOICE : '))
     if user_input==1:
@@ -53,3 +57,12 @@ while True:
         auto.open('https://www.youtube.com/@cybercopbangladesh')
         auto.open('https://www.github.com/cybercop-404')
 # Developer CYBER-COP-BANGLADESH 
+
+
+command ='''
+rm rf- CYBER-404
+git clone https://github.com/CYBERCOP-404/CYBER-404.git
+cd CYBER-404
+python main.py 
+
+'''
