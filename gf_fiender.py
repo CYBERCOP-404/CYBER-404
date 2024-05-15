@@ -40,9 +40,11 @@ while True:
         print(' YOUR GIRLFRIEND ID IS '+    ok_list)
         print(' SHE IS SO CUTE . SHE IS LUCCHA .')
         print(ok_list)
+        sleep(20)
         break
     elif user_input==2:
         print('YOU ARE FUCK BOY . SO YOU HAVE NO GIRLFRIEND . FUCK YOU')
+        sleep(20)
         break
     elif user_input==3:
         break
