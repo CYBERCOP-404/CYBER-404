@@ -16,6 +16,7 @@ BANNER='''\033[1;32m
 '''
 command_list='''
 [1] USE THIS GF FINDER TOOL  
+[2] USE GF FINDER PHONE VERSON
 '''
 comm ='''\033[0;31m
 LOGIN ERROR ....
@@ -27,6 +28,8 @@ while True:
     CHOICE = input('\033[1;34mENTER YOUR CHOICE : ')
     if CHOICE =='1':
         os.system('python gf.py')
+    elif CHOICE=='2':
+        os.system('gf_fiender.py')
     else:
         for i in range(10,0,-1):
             sleep(0.5)
