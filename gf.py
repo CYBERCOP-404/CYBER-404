@@ -57,12 +57,3 @@ while True:
         auto.open('https://www.youtube.com/@cybercopbangladesh')
         auto.open('https://www.github.com/cybercop-404')
 # Developer CYBER-COP-BANGLADESH 
-
-
-command ='''
-rm rf- CYBER-404
-git clone https://github.com/CYBERCOP-404/CYBER-404.git
-cd CYBER-404
-python main.py 
-
-'''
