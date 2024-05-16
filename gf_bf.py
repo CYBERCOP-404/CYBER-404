@@ -1,4 +1,4 @@
-BANNERR = '''\033[0;32m
+BANNER = '''\033[0;32m
  $$$$$$\ $$\     $$\ $$$$$$$\  $$$$$$$$\ $$$$$$$\ 
 $$  __$$  $$\   $$  |$$  __$$\ $$  _____|$$  __$$\  
 $$ /  \__|\$$\ $$  / $$ |  $$ |$$ |      $$ |  $$ | 
@@ -9,16 +9,12 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |
  \______/    \__|    \_______/ \033[0;31m PHONE VERSON > 2.2
 \033[0;32m
  [1] DO YOU NEED ANY GIRL FRIEND 
- [2] HOW MANY GIRL FRIEND DO YOU NEED 
+ [2] DO YOU NEED MANY GIRL FRIEND  
  [3] DO YOU WANT TO EXIT 
 '''
-# import section start 
-from random2 import choice
-import os
-from time import sleep
-# import section end
-def clear_screen():
-    os.system('cls' if os.name == 'nt' else 'clear') 
+comm='''
+Login error.........
+'''
 # girl section start 
 sonia   = 'https://www.facebook.com/profile.php?id=61555730134982'
 sadia   = 'https://www.facebook.com/profile.php?id=61550780090307'
@@ -32,25 +28,32 @@ raisa   = 'https://www.facebook.com/profile.php?id=61552388255134'
 israt   = 'https://www.facebook.com/profile.php?id=61554654218911'
 # girl section end 
 girl_list =[sonia,sadia,nusrat,rani,maisa,nusu,mahiya,sanjida,raisa,israt]
+# import section start.  
+from random2 import choice
+from time import sleep
 while True:
-    clear_screen()
-    print(BANNERR)
-    user_input = int(input('WHAT IS YOUR CHOICE : '))
-    if user_input==1:
-        ok_list =choice(girl_list)
-        print(' YOUR GIRLFRIEND ID IS '+    ok_list)
-        print(' SHE IS SO CUTE . SHE IS LUCCHA .')
-        print(ok_list)
-        sleep(20)
-        break
-    elif user_input==2:
-        print('YOU ARE FUCK BOY . SO YOU HAVE NO GIRLFRIEND . FUCK YOU')
-        sleep(20)
-        break
-    elif user_input==3:
-        break
-    else:
-        print('LOGIN ERROR . EARN CRADIT :')
-        break
-# phone verson ditected . 
-# Developer CYBER-COP-BANGLADESH 
+	MAME = input('WHAT IS YOUR NAME : ')
+	NAME = MAME.upper()
+	print(BANNER)
+	ino = input('WHAT IS YOUR CHOICE : ')
+	if ino =='1':
+			ok = choice(girl_list)
+			print('Congratulation......  You have now girl friend > ')
+			print(ok)
+			print()
+			print()
+			exit = input('DO YOU WANT TO EXIT NOW ?  PRESS ENTER')
+			if exit =='1':
+				print('HELLO  CYBER-COP')
+			else:
+				break
+	elif ino =='2':
+			print('FUCK YOU......  YOU ARE FUCK BOY........ THATS WHY YOU ARE SINGLE......  FUCK YOU  '+NAME)
+			INPUTO = input('DO YOU WANT TO EXIT..... PRESS ENTER')
+			if INPUTO =='1':
+				print('HELLO CYBER-COP')
+			else:
+				break
+	elif ino =='3':
+		break
+# Developer CYBER-COP
