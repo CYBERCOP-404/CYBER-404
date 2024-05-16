@@ -16,12 +16,7 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |
 from random2 import choice
 import os
 from time import sleep
-import android
 # import section end
-droid = android.Android()
-
-def open_browser(url):
-    droid.startActivity('android.intent.action.VIEW', url)
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear') 
 # girl section start 
@@ -45,7 +40,7 @@ while True:
         ok_list =choice(girl_list)
         print(' YOUR GIRLFRIEND ID IS '+    ok_list)
         print(' SHE IS SO CUTE . SHE IS LUCCHA .')
-        open_browser(ok_list)
+        print(ok_list)
         sleep(20)
         break
     elif user_input==2:
