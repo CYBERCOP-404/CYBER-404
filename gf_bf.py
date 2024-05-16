@@ -32,9 +32,9 @@ girl_list =[sonia,sadia,nusrat,rani,maisa,nusu,mahiya,sanjida,raisa,israt]
 from random2 import choice
 from time import sleep
 while True:
+	print(BANNER)
 	MAME = input('WHAT IS YOUR NAME : ')
 	NAME = MAME.upper()
-	print(BANNER)
 	ino = input('WHAT IS YOUR CHOICE : ')
 	if ino =='1':
 			ok = choice(girl_list)
