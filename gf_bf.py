@@ -31,7 +31,11 @@ girl_list =[sonia,sadia,nusrat,rani,maisa,nusu,mahiya,sanjida,raisa,israt]
 # import section start.  
 from random2 import choice
 from time import sleep
+import os
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
 while True:
+	clear_screen()
 	print(BANNER)
 	MAME = input('WHAT IS YOUR NAME : ')
 	NAME = MAME.upper()
