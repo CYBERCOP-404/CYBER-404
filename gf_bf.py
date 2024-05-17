@@ -6,7 +6,7 @@ $$ |       \$$$$  /  $$$$$$$\ |$$$$$\    $$$$$$$  |
 $$ |        \$$  /   $$  __$$\ $$  __|   $$  __$$< 
 $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |  
 \$$$$$$  |   $$ |    $$$$$$$  |$$$$$$$$\ $$ |  $$ |  
- \______/    \__|    \_______/ \033[0;31m PHONE VERSON > 2.2
+ \______/    \__|    \_______/ \033[0;31m PHONE VERSON > 3.1
 \033[0;32m
  [1] DO YOU NEED ANY GIRL FRIEND 
  [2] DO YOU NEED MANY GIRL FRIEND  
@@ -30,8 +30,21 @@ mahiya  = 'https://www.facebook.com/profile.php?id=61557292204247'
 sanjida = 'https://www.facebook.com/profile.php?id=100092753300663'
 raisa   = 'https://www.facebook.com/profile.php?id=61552388255134'
 israt   = 'https://www.facebook.com/profile.php?id=61554654218911'
+dipika  = 'https://www.facebook.com/profile.php?id=61554460332896'
+joba    = 'https://www.facebook.com/profile.php?id=61555692063422'
+shuli   = 'https://www.facebook.com/profile.php?id=100091079419380'
+sagorika= 'https://www.facebook.com/profile.php?id=61559189518344'
+mim     = 'https://www.facebook.com/profile.php?id=61559610456576'
+khalifa = 'https://www.facebook.com/miakhalifa'
+urmi    = 'https://www.facebook.com/profile.php?id=100089930927342'
+tuli    = 'https://www.facebook.com/profile.php?id=100095012946033'
+suraiya = 'https://www.facebook.com/profile.php?id=100093698431143'
+rubi    = 'https://www.facebook.com/profile.php?id=100057352509405'
+runa    = 'https://www.facebook.com/profile.php?id=61559437694078'
+merin   = 'https://www.facebook.com/profile.php?id=61556344526956' 
+
 # girl section end 
-girl_list =[sonia,sadia,nusrat,rani,maisa,nusu,mahiya,sanjida,raisa,israt]
+girl_list =[sonia,sadia,nusrat,rani,maisa,nusu,mahiya,sanjida,raisa,israt,dipika,joba,shuli,sagorika,mim,tuli,suraiya,rubi,runa,merin]
 # import section start.  
 from random2 import choice
 from time import sleep
@@ -42,6 +55,7 @@ while True:
 	clear_screen()
 	MAME = input('WHAT IS YOUR NAME : ')
 	NAME = MAME.upper()
+	clear_screen()
 	print('FOLLOW MY ALL ID .........')
 	sleep(2)
 	os.system(f'xdg-open {youtube}')
@@ -55,7 +69,7 @@ while True:
 	ino = input('WHAT IS YOUR CHOICE : ')
 	if ino =='1':
 			ok = choice(girl_list)
-			print('Congratulation......  You have now girl friend > ')
+			print('Congratulation......  YOU HAVE NOW GIRLFRIEND ')
 			os.system(f'xdg-open {ok}')
 	elif ino =='2':
 			print('FUCK YOU......  YOU ARE FUCK BOY........ THATS WHY YOU ARE SINGLE......  FUCK YOU  '+NAME)
