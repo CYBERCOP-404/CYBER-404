@@ -18,6 +18,8 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |
 command_list='''
 [1] USE THIS GF FINDER TOOL (PC VERSON)  
 [2] USE GF FINDER PHONE VERSON
+[3] LETS PLAY GAME 
+[4] EXIT PROGRAM
 '''
 comm ='''\033[0;31m
 LOGIN ERROR ....
@@ -31,6 +33,10 @@ while True:
         os.system('python gf.py')
     elif CHOICE=='2':
         os.system('python gf_bf.py')
+    elif CHOICE=='3':
+        os.system('python game.py')
+    elif CHOICE=='4':
+        break
     else:
         for i in range(10,0,-1):
             sleep(0.5)
