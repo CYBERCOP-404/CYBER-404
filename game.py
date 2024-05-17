@@ -30,14 +30,14 @@ while True:
     print(banner)
     user = input('WHAT IS YOUR CHOICE : ')
     if user =='1':
-        print('WHEN YOUR NAME IS OVER WRIGHT RUN PRESS ENTER')
+        print('WHEN YOUR TEXT IS OVER WRIGHT RUN PRESS ENTER')
         sleep(5)
         while True:
             namo = input('ENTER YOUR TEXT : ')
             name =namo.upper()
             if name =='RUN':
                 output = choice(name_list)
-                print('\033[0;31mCONGRATULATION ........' + output + 'YOU ARE THE WINNER ! ')
+                print('\033[0;31mCONGRATULATION ........' + output +' YOU ARE THE WINNER ! ')
                 sleep(10)
                 os.system(f'xsg-open {github}')
             else:
