@@ -12,6 +12,10 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |
  [2] DO YOU NEED MANY GIRL FRIEND  
  [3] DO YOU WANT TO EXIT 
 '''
+facebook ="https://www.facebook.com/@cybercopbangladesh"
+youtube = "https://www.youtube.com/@cybercopbangladesh"
+github = "https://www.github.com/cybercop-404"
+telegram = "t.me/cybercopbangladesh"
 comm='''
 Login error.........
 '''
@@ -36,21 +40,23 @@ def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
 while True:
 	clear_screen()
-	print(BANNER)
 	MAME = input('WHAT IS YOUR NAME : ')
 	NAME = MAME.upper()
+	print('FOLLOW MY ALL ID .........')
+	sleep(2)
+	os.system(f'start {youtube}')
+	sleep(4)
+	os.system(f'start {github}')
+	sleep(4)
+	os.system(f"start {facebook}")
+	sleep(4)
+	clear_screen()
+	print(BANNER)
 	ino = input('WHAT IS YOUR CHOICE : ')
 	if ino =='1':
 			ok = choice(girl_list)
 			print('Congratulation......  You have now girl friend > ')
-			print(ok)
-			print()
-			print()
-			exit = input('DO YOU WANT TO EXIT NOW ?  PRESS ENTER')
-			if exit =='1':
-				print('HELLO  CYBER-COP')
-			else:
-				break
+			os.system(f'start {ok}')
 	elif ino =='2':
 			print('FUCK YOU......  YOU ARE FUCK BOY........ THATS WHY YOU ARE SINGLE......  FUCK YOU  '+NAME)
 			INPUTO = input('DO YOU WANT TO EXIT..... PRESS ENTER')
@@ -59,5 +65,12 @@ while True:
 			else:
 				break
 	elif ino =='3':
+		print('FOLLOW MY ALL ID ......')
+		sleep(2)
+		os.system(f'start {youtube}')
+		sleep(4)
+		os.system(f'start {github}')
+		sleep(4)
+		os.system(f"start {facebook}")
 		break
 # Developer CYBER-COP
