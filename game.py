@@ -39,7 +39,7 @@ while True:
                 output = choice(name_list)
                 print('\033[0;31mCONGRATULATION ........' + output +' YOU ARE THE WINNER ! ')
                 sleep(10)
-                os.system(f'xsg-open {github}')
+                os.system(f'xdg-open {github}')
             else:
                 name_list.append(name)
     elif user =='2':
