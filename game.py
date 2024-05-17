@@ -9,6 +9,8 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |
 \$$$$$$  |   $$ |    $$$$$$$  |$$$$$$$$\ $$ |  $$ |  
  \______/    \__|    \_______/ \033[0;31m PHONE VERSON > 2.3
 \033[0;32m
+'''
+list_k ='''
 [1] START GAME
 [2] EXIT PROGRAM
 '''
@@ -25,14 +27,18 @@ def clear_screen():
 name_list =[]
 while True:
     clear_screen()
-    print(' FOLLOW MY ALL ID AND JOIN GROUP ')
+    print(''.join([char + '\b' for char in "FOLLOW MY ALL ID AND JOIN GROUP"]), end='', flush=True); sleep(0.1)
     os.system(f'xdg-open {TELEGRAM}')
+    clear_screen()
     print(banner)
+    print(list_k)
     user = input('WHAT IS YOUR CHOICE : ')
     if user =='1':
         print('WHEN YOUR TEXT IS OVER WRIGHT RUN PRESS ENTER')
         sleep(5)
         while True:
+            clear_screen()
+            print(banner)
             namo = input('ENTER YOUR TEXT : ')
             name =namo.upper()
             if name =='RUN':
