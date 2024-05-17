@@ -27,7 +27,7 @@ def clear_screen():
 name_list =[]
 while True:
     clear_screen()
-    print(''.join([char + '\b' for char in "FOLLOW MY ALL ID AND JOIN GROUP"]), end='', flush=True); sleep(0.1)
+    print("FOLLOW MY ALL ID AND JOIN GROUP")
     os.system(f'xdg-open {TELEGRAM}')
     clear_screen()
     print(banner)
