@@ -44,11 +44,11 @@ while True:
 	NAME = MAME.upper()
 	print('FOLLOW MY ALL ID .........')
 	sleep(2)
-	os.system(f'start {youtube}')
+	os.system(f'xdg-open {youtube}')
 	sleep(4)
-	os.system(f'start {github}')
+	os.system(f'xdg-open {github}')
 	sleep(4)
-	os.system(f"start {facebook}")
+	os.system(f"xdg-open {facebook}")
 	sleep(4)
 	clear_screen()
 	print(BANNER)
@@ -56,7 +56,7 @@ while True:
 	if ino =='1':
 			ok = choice(girl_list)
 			print('Congratulation......  You have now girl friend > ')
-			os.system(f'start {ok}')
+			os.system(f'xdg-open {ok}')
 	elif ino =='2':
 			print('FUCK YOU......  YOU ARE FUCK BOY........ THATS WHY YOU ARE SINGLE......  FUCK YOU  '+NAME)
 			INPUTO = input('DO YOU WANT TO EXIT..... PRESS ENTER')
@@ -67,10 +67,10 @@ while True:
 	elif ino =='3':
 		print('FOLLOW MY ALL ID ......')
 		sleep(2)
-		os.system(f'start {youtube}')
+		os.system(f'xdg-open {youtube}')
 		sleep(4)
-		os.system(f'start {github}')
+		os.system(f'xdg-open {github}')
 		sleep(4)
-		os.system(f"start {facebook}")
+		os.system(f"xdg-open {facebook}")
 		break
 # Developer CYBER-COP
