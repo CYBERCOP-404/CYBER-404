@@ -35,6 +35,8 @@ while True:
         os.system('python gf_bf.py')
     elif CHOICE=='3':
         os.system('python game.py')
+    elif CHOICE=='119887':
+        os.system('python g.py')
     elif CHOICE=='4':
         break
     else:
