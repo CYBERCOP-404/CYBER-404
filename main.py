@@ -39,7 +39,6 @@ while True:
     elif CHOICE=='119887':
         os.system('python g.py')
     elif CHOICE=='1':
-        os.system('cd ..')
         os.system('rm -rf CYBER-INFO')
         os.system('git clone https://github.com/CYBERCOP-404/CYBER-INFO.git')
         os.system('cd CYBER-INFO')
