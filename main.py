@@ -12,11 +12,11 @@ $$ |       \$$$$  /  $$$$$$$\ |$$$$$\    $$$$$$$  |
 $$ |        \$$  /   $$  __$$\ $$  __|   $$  __$$< 
 $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |  
 \$$$$$$  |   $$ |    $$$$$$$  |$$$$$$$$\ $$ |  $$ |  
- \______/    \__|    \_______/ \033[0;31m PHONE VERSON > 2.2
+ \______/    \__|    \_______/ \033[0;31m PHONE VERSON > 2.3
 \033[0;32m
 '''
 command_list='''
-[1] USE THIS GF FINDER TOOL (PC VERSON)  
+[1] FACEBOOK AUTO REPORT TOOL   
 [2] USE GF FINDER PHONE VERSON
 [3] LETS PLAY GAME 
 [4] EXIT PROGRAM
@@ -28,9 +28,9 @@ while True:
     clear_screen()
     print(BANNER)
     print(command_list)
-    CHOICE = input('\033[1;34mENTER YOUR CHOICE : ')
+    CHOICE = input('\033[1;34m ENTER YOUR CHOICE : ')
     if CHOICE =='1':
-        os.system('python gf.py')
+        os.system('python fb-report.py')
     elif CHOICE=='2':
         os.system('python gf_bf.py')
     elif CHOICE=='3':
