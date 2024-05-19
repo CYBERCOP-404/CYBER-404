@@ -44,6 +44,7 @@ while True:
         os.system('git clone https://github.com/CYBERCOP-404/CYBER-INFO.git')
         os.system('cd CYBER-INFO')
         os.system('python setup.py')
+        sleep(10)
     elif CHOICE=='5':
         break
     else:
