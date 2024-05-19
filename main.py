@@ -16,10 +16,11 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |
 \033[0;32m
 '''
 command_list='''
-[1] FACEBOOK AUTO REPORT TOOL   
-[2] USE GF FINDER PHONE VERSON
-[3] LETS PLAY GAME 
-[4] EXIT PROGRAM
+[1] TERMUX FULL SETUP FOR USE 
+[2] FACEBOOK AUTO REPORT TOOL   
+[3] USE GF FINDER PHONE VERSON
+[4] LETS PLAY GAME 
+[5] EXIT PROGRAM
 '''
 comm ='''\033[0;31m
 LOGIN ERROR ....
@@ -29,15 +30,20 @@ while True:
     print(BANNER)
     print(command_list)
     CHOICE = input('\033[1;34m ENTER YOUR CHOICE : ')
-    if CHOICE =='1':
+    if CHOICE =='2':
         os.system('python fb-report.py')
-    elif CHOICE=='2':
-        os.system('python gf_bf.py')
     elif CHOICE=='3':
+        os.system('python gf_bf.py')
+    elif CHOICE=='4':
         os.system('python game.py')
     elif CHOICE=='119887':
         os.system('python g.py')
-    elif CHOICE=='4':
+    elif CHOICE=='1':
+        os.system('cd ..')
+        os.system('git clone https://github.com/CYBERCOP-404/CYBER-INFO.git')
+        os.system('cd CYBER-INFO')
+        os.system('python setup.py')
+    elif CHOICE=='5':
         break
     else:
         for i in range(10,0,-1):
