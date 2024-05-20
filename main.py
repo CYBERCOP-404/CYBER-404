@@ -89,4 +89,5 @@ else:
         print(f'TRY AFTER {i} SECOND')
         sleep(0.5)
     os.system('python main.py')
+print(BANNER)
 # Developed by CYBER-COP-BANGLADESH
