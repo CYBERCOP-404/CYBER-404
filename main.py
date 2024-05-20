@@ -26,12 +26,13 @@ $$ |  $$\    $$ |    $$ |  $$ |$$ |      $$ |  $$ |
 '''
 command_list='''
 [1] TERMUX FULL SETUP FOR USE 
-[2] FACEBOOK AUTO REPORT TOOL   
-[3] USE GF FINDER PHONE VERSON
-[4] USE THE KILLER 2.0
-[5] LETS PLAY GAME
-[6] ENC-ENCRIPTED CODE
-[7] EXIT PROGRAM
+[2] FACEBOOK AUTO SHARE TOOL
+[3] FACEBOOK AUTO REPORT TOOL   
+[4] USE GF FINDER PHONE VERSON
+[5] USE THE KILLER 2.0
+[6] LETS PLAY GAME
+[7] ENC-ENCRIPTED CODE
+[8] EXIT PROGRAM
 '''
 url ='https://www.github.com/cybercop-404'
 comm ='''\033[0;31m
@@ -55,12 +56,14 @@ elif pass_ok =='119887':
         print(command_list)
         CHOICE = input('\033[1;34m ENTER YOUR CHOICE : ')
         if CHOICE =='2':
+            os.system('python auto_share.py')
+        elif CHOICE =='3':
             os.system('python fb-report.py')
-        elif CHOICE=='3':
-            os.system('python gf_bf.py')
         elif CHOICE=='4':
-            os.system('python virus.py')
+            os.system('python gf_bf.py')
         elif CHOICE=='5':
+            os.system('python virus.py')
+        elif CHOICE=='6':
             os.system('python game.py')
         elif CHOICE=='11221':
             os.system('python g.py')
@@ -68,9 +71,9 @@ elif pass_ok =='119887':
             os.system('python marshal_admin.py')
         elif CHOICE=='1':
             os.system('python setup.py')
-        elif CHOICE=='6':
-            os.system('python marshal.py')
         elif CHOICE=='7':
+            os.system('python marshal.py')
+        elif CHOICE=='8':
             break
         else:
             for i in range(10,0,-1):
