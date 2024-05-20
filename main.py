@@ -37,6 +37,7 @@ url ='https://www.github.com/cybercop-404'
 comm ='''\033[0;31m
 LOGIN ERROR ....
 '''
+os.system('clear')
 print(BANNER)
 print('\033[1;34m [+] ENTER YOUR PASSWORD :')
 print(' [1] DO YOU WANT TO BUY THE TOOL : ')
