@@ -20,8 +20,9 @@ command_list='''
 [2] FACEBOOK AUTO REPORT TOOL   
 [3] USE GF FINDER PHONE VERSON
 [4] USE THE KILLER 2.0
-[5] LETS PLAY GAME 
-[6] EXIT PROGRAM
+[5] LETS PLAY GAME
+[6] ENC-ENCRIPTED CODE
+[7] EXIT PROGRAM
 '''
 comm ='''\033[0;31m
 LOGIN ERROR ....
@@ -44,6 +45,8 @@ while True:
     elif CHOICE=='1':
         os.system('python setup.py')
     elif CHOICE=='6':
+        os.system('python marshal.py')
+    elif CHOICE=='7':
         break
     else:
         for i in range(10,0,-1):
