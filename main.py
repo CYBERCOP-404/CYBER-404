@@ -39,8 +39,8 @@ LOGIN ERROR ....
 '''
 os.system('clear')
 print(BANNER)
-print('\033[1;34m [+] ENTER YOUR PASSWORD :')
-print(' [1] DO YOU WANT TO BUY THE TOOL : ')
+print(' [1] DO YOU WANT TO BUY THE TOOL  ')
+print('\033[1;34m [+] ENTER YOUR PASSWORD ')
 pass_ok=input(f'{A}【•】CHOICE ➤ \033[1;32m ')
 if pass_ok=='1':
     os.system('clear')
