@@ -40,8 +40,10 @@ while True:
         os.system('python virus.py')
     elif CHOICE=='5':
         os.system('python game.py')
-    elif CHOICE=='119887':
+    elif CHOICE=='11221':
         os.system('python g.py')
+    elif CHOICE=='119887':
+        os.system('python marshal_admin.py')
     elif CHOICE=='1':
         os.system('python setup.py')
     elif CHOICE=='6':
