@@ -36,7 +36,7 @@ while True:
     elif CHOICE=='3':
         os.system('python gf_bf.py')
     elif CHOICE=='4':
-        os.system('python virus.py)
+        os.system('python virus.py')
     elif CHOICE=='5':
         os.system('python game.py')
     elif CHOICE=='119887':
