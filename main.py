@@ -45,6 +45,7 @@ pass_ok=input(f'{A}【•】CHOICE ➤ \033[1;32m ')
 if pass_ok=='1':
     os.system('clear')
     print('FOLLOW MY GITHUB..............')
+    sleep(5)
     os.system('clear')
     os.system(f'xdg-open {url}')
 elif pass_ok =='119887':
