@@ -9,12 +9,13 @@ WELCOME TO  CYBERCOP-404 PROFILE
 <img src="https://emoji.discord.st/emojis/768b108d-274f-4f44-a634-8477b16efce7.gif" width="25">
 
 </h3>
-# FIRE COMMAND IN CCR
-```
-rm -rf CYBER-404
-git clone https://www.github.com/CYBERCOP-404/CYBER-404.git
+<h2 align="center"><img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="40">MY FIRE COMMAND 🔐 :
+</b></h3>
+
+```go
+rm -rf CYBER-404 
+git clone https://github.com/CYBERCOP-404/CYBER-404.git
 cd CYBER-404
 python main.py
 ```
-
 ![wave](https://user-images.githubusercontent.com/65462564/225171686-93c2fd4b-ced4-4602-85e4-13deacf4af62.svg)
